@@ -18,7 +18,7 @@ pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urlli
 pip install requests
 pip install bs4
 rm -rf 2factor
-git clone https://github.com/syedzada1100/sim-data.git
+git clone https://github.com/syedzada1100/2factor.git
 cd 2factor
 git pull 
 python 2f.py
