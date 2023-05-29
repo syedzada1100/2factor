@@ -6,10 +6,10 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from Syed import main
+    from Shaz import main
     main()
 elif bit == '32bit':
-    from Syed32 import main
+    from Shaz32 import main
     main()
 else:
     print('\n YOUR DEVICE IS NOT SUPPORT THIS TOOL')
