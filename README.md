@@ -9,18 +9,34 @@
 # Installation 
 
 ```  
-# Tool 2f + 2f live
+# 2Factor Tool
+
+[+] VERSION 2.0
+
+[+] PLATFORM 32bit + 64bit
+
+termux-setup-storage
+
 pkg update -y
+
 pkg upgrade -y
+
 pkg install git -y
+
 pkg install python -y
-pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests
+
 pip install requests
+
 pip install bs4
+
 rm -rf 2factor
+
 git clone https://github.com/syedzada1100/2factor.git
+
 cd 2factor
+
 git pull 
+
 python 2f.py
 
 ```
